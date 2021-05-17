@@ -16,6 +16,13 @@ public class ReporteService {
 		fechaf = teclado.nextLine();
 		System.out.println("Ingrese id del cliente: ");
 		idc = teclado.nextInt();
+		System.out.print(fechai);
+		System.out.println(fechaf);
+		System.out.println(idc);
+		ReporteImpService rp = new ReporteImpService();
+		ReporteDao reporte = rp.getReporteImpPort();
+		System.out.println("REPORTE: ");
+		System.out.println(reporte.buscar(fechai, fechaf, idc));
 	}
 
 }
