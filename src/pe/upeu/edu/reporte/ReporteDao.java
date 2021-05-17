@@ -9,8 +9,8 @@ import javax.xml.bind.annotation.XmlSeeAlso;
 import javax.xml.ws.Action;
 import javax.xml.ws.RequestWrapper;
 import javax.xml.ws.ResponseWrapper;
-import pe.upeu.edu.dao.Cliente;
-import pe.upeu.edu.dao.ObjectFactory;
+import pe.upeu.edu.Dao.Cliente;
+import pe.upeu.edu.Dao.ObjectFactory;
 
 
 /**

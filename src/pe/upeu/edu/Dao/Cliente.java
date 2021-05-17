@@ -1,5 +1,5 @@
 
-package pe.upeu.edu.dao;
+package pe.upeu.edu.Dao;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
